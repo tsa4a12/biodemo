@@ -227,6 +227,7 @@ def main():
     "Orchestrate the execution of the program"
     options = parse_args()
     init_logging(options.log)
+    process_files(options)
 
 
 # If this script is run from the command line then call the main function.
